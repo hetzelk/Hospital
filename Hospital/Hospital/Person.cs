@@ -6,7 +6,40 @@ using System.Threading.Tasks;
 
 namespace Hospital
 {
-    public class Person
+    public abstract class Person
     {
+        public List<string> symptom = new List<string>();
+        public string name;
+        public int age;
+        public int phoneNumber;
+        public bool healthInsurance;
+
+        public string getName()
+        {
+            return name;
+        }
+        public int getAge()
+        {
+            return age;
+        }
+
+        public int getPhoneNumber()
+        {
+            return phoneNumber;
+        }
+        public bool checkInsurance()
+        {
+            return healthInsurance;
+        }
+
+        public void talk()
+        {
+            
+        }
+        public void listen()
+        {
+
+        }
+        
     }
 }
