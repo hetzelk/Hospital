@@ -32,14 +32,6 @@ namespace Hospital
             return healthInsurance;
         }
 
-        public void talk()
-        {
-            
-        }
-        public void listen()
-        {
-
-        }
         
     }
 }

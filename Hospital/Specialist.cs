@@ -8,5 +8,11 @@ namespace Hospital
 {
     class Specialist
     {
+        public string specialistType;
+
+        public string getSpecialistType()
+        {
+            return specialistType;
+        }
     }
 }

@@ -1,6 +1,10 @@
 ﻿namespace Hospital
 {
-    internal class Symptom
+    public class Symptom
     {
+        public void getSymptom()
+        {
+
+        }
     }
 }

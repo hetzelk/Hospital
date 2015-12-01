@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Hospital
 {
-    class WaitingRoom
+    class WaitingRoom:Room
     {
-        public List patientList()
+        public string patientList()
         {
             //see who's all in the waiting room
         }

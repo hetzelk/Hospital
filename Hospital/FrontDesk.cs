@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace Hospital
 {
-    class FrontDesk
+    class FrontDesk:Room
     {
-        class FrontDesk : Room
-        {
+
             Appointment appoinment = new Appointment()
-        string phonenumber;
+            string phonenumber;
 
             public string call()
             {
-                //get phone number
+                return phonenumber;
             }
 
 

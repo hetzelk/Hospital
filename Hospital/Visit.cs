@@ -8,9 +8,10 @@ namespace Hospital
 {
     class Visit
     {
+        public string durration;
         public string duration()
         {
-            //the length of the appointment
+            return durration;
         }
     }
 }

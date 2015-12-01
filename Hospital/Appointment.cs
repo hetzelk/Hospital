@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Hospital
 {
-    class Appointment
+    class Appointment:Visit
     {
+        Patient patient = new Patient();
         string timedate;
         string doctorselect;
         string patientselect;
@@ -23,14 +24,13 @@ namespace Hospital
             return doctorselect;
         }
 
-        public string patient()
+        public string getPatientName()
         {
-            return patientselect;
+            return patient.patientName;
         }
 
-        drVisit()
 
-        public List callQueue()
+        public string callQueue()
         {
             //call the patient a week early and also the day before
         }
