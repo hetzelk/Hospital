@@ -8,9 +8,6 @@ namespace Hospital
 {
     class ExaminationRoom
     {
-        class ExaminationRoom
-        {
-            //tells the doctor/other nurses who's in a certain examination room
-        }
+        //tells the doctor/other nurses who's in a certain examination room
     }
 }

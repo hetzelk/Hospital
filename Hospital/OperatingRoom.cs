@@ -8,7 +8,7 @@ namespace Hospital
 {
     class OperatingRoom : Room
     {
-        public bool operatingOccupied()
+        public void operatingOccupied()
         {
             //if else, the selected room is occupied
         }

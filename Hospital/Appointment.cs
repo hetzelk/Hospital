@@ -30,7 +30,7 @@ namespace Hospital
         }
 
 
-        public string callQueue()
+        public void callQueue()
         {
             //call the patient a week early and also the day before
         }
